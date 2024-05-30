@@ -52,4 +52,7 @@ function OnProfile() {
         console.error(error);
       })
 }
-// window.onload = Keltion();
+
+function Hallo(params) {
+  OnProfile()
+}
